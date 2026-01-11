@@ -157,7 +157,7 @@ pyinstaller --onefile --windowed --clean --icon=icon.ico --name VideoDownloader 
 
 为确保能够稳定下载会员或受限内容，**强烈建议使用手动导入 Cookie 的方式**。
 虽然以管理员权限运行程序可以启用自动从浏览器获取 Cookie 的功能，但由于浏览器安全机制限制，该功能通常仅在部分较低版本浏览器中可用。若自动获取失败，程序将自动回退至**无 Cookie 模式**进行下载。
-### 声明
+### ⚠️声明
 本项目仅用于学习与个人用途。
 
 作者不鼓励也不支持在未获得授权的情况下下载受版权保护的内容。
@@ -165,4 +165,5 @@ pyinstaller --onefile --windowed --clean --icon=icon.ico --name VideoDownloader 
 用户需对其使用本软件的行为自行承担全部责任，并确保遵守当地法律法规以及目标平台的服务条款。
 
 对于因使用本项目而产生的任何不当使用、数据丢失或法律问题，作者不承担任何责任。
+
 
