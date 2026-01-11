@@ -79,6 +79,7 @@ VideoDownloader/
 ├── logSyntaxHighlighter.py   # Log syntax highlighting
 ├── translate_data.py         # Multi-language translation data
 ├── style.qss                 # Interface stylesheet
+├── history.qss               # history stylesheet
 ├── icon.ico                 # Application icon
 ├── cookies/                  # Cookie file storage directory
 ├── requirements.txt          # Python dependencies list
@@ -146,5 +147,6 @@ Manual cookie import is strongly recommended to ensure reliable access to member
 > Users are solely responsible for how they use this software and for ensuring compliance with **local laws, regulations, and the terms of service** of the target platforms.
 >
 > The author shall **not be held liable** for any misuse, data loss, or legal issues arising from the use of this project.
+
 
 
