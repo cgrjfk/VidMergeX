@@ -3,7 +3,7 @@
 
 <h1>🎬 VideoMergeX</h1>
 
-<p><strong>具有微妙赛博朋克美学的现代化 GUI 视频下载工具，基于 yt-dlp 构建</strong></p>
+<p><strong>具有赛博朋克美学的现代化 GUI 视频下载工具，基于 yt-dlp 构建</strong></p>
 
 <p>
 <a href="./README.md">English</a> |
@@ -157,3 +157,4 @@ pyinstaller --onefile --windowed --clean --icon=icon.ico --name VideoDownloader 
 
 为确保能够稳定下载会员或受限内容，**强烈建议使用手动导入 Cookie 的方式**。
 虽然以管理员权限运行程序可以启用自动从浏览器获取 Cookie 的功能，但由于浏览器安全机制限制，该功能通常仅在部分较低版本浏览器中可用。若自动获取失败，程序将自动回退至**无 Cookie 模式**进行下载。
+
