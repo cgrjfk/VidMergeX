@@ -128,7 +128,7 @@ class DownloadWorker(QObject):
                     cookie_value = value
                     if not value and encrypted_value:
                         try:
-                            # 加密则使用yt-dlp chrome此处无法解密
+                            # 若chrome版本加密则使用yt-dlp chrome此处无法解密 建议使用手动上传 或者 道友自行加入加密chrome逻辑亦可
                             continue
                         except:
                             continue
@@ -594,4 +594,5 @@ class DownloadWorker(QObject):
 
         def error(self, msg):
             prefix = self.outer._tr("错误：", "Error: ")
+
             self.outer.log_signal.emit(prefix + msg)
