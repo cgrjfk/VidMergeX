@@ -132,8 +132,7 @@ pyinstaller --onefile --windowed --clean --icon=icon.ico --name VideoDownloader 
 ### 方法一：浏览器插件（推荐）
 
 1. 使用浏览器登录目标视频网站（确保拥有合法访问权限）
-2. 安装 Cookie 导出插件，例如：
-
+2. 安装 Cookie 导出插件，例如：
  Chrome / Edge：*Get cookies.txt*
  Firefox：*cookies.txt*
 3. 打开目标视频网站页面
