@@ -36,4 +36,4 @@ After downloading:
    or make sure it is accessible via the system `PATH`
 
 Once FFmpeg is available, the application will automatically detect and use it.
-Or just download the release file，obtain the VidMergeX.zip and upzip it then you can get the ffmpeg.ee in the file.
+Or just download the release file，obtain the VidMergeX.zip and upzip it then you can get the ffmpeg.exe in the file.
