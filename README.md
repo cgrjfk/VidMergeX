@@ -95,13 +95,13 @@ VideoDownloader/
 ### Installation & Running
 ```bash
 # 1. Clone repository
-git clone https://github.com/yourusername/VideoDownloader.git
-cd VideoDownloader
+git clone https://github.com/cgrjfk/CyberDL .git
+cd CyberDL
 
 # 2. Create conda environment and activate it(recommended)
-conda create -n VidMergeX python=3.11
+conda create -n CyberDL python=3.11
 
-conda activate VidMergeX
+conda activate CyberDL
 
 # 3. Install dependencies
 pip install -r requirements.txt
@@ -112,7 +112,7 @@ python main.py
 
 ### Packaging Executable
 ```bash
-pyinstaller --onefile --windowed --clean --icon=icon.ico --name VideoDownloader main.py
+pyinstaller --onefile --windowed --clean --icon=icon.ico --name CyberDL main.py
 ```
 ### 🍪 How to Obtain Cookies
 
@@ -147,6 +147,7 @@ Manual cookie import is strongly recommended to ensure reliable access to member
 > Users are solely responsible for how they use this software and for ensuring compliance with **local laws, regulations, and the terms of service** of the target platforms.
 >
 > The author shall **not be held liable** for any misuse, data loss, or legal issues arising from the use of this project.
+
 
 
 
