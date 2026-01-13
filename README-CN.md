@@ -74,7 +74,7 @@
 
 ```
 
-VideoDownloader/
+CyberDL/
 ├── main.py                   # 主程序入口
 ├── downloadWorker.py         # 下载工作线程
 ├── historyManager.py         # 历史记录管理
@@ -103,12 +103,12 @@ VideoDownloader/
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/yourusername/VideoDownloader.git
-cd VideoDownloader
+git clone https://github.com/cgrjfk/CyberDL.git
+cd CyberDL
 
 # 2. 创建并激活 conda 环境（推荐）
-conda create -n VidMergeX python=3.11
-conda activate VidMergeX
+conda create -n CyberDL python=3.11
+conda activate CyberDL
 
 # 3. 安装依赖
 pip install -r requirements.txt
@@ -122,7 +122,7 @@ python main.py
 ### 打包为可执行文件
 
 ```bash
-pyinstaller --onefile --windowed --clean --icon=icon.ico --name VideoDownloader main.py
+pyinstaller --onefile --windowed --clean --icon=icon.ico --name CyberDL main.py
 ```
 
 ---
